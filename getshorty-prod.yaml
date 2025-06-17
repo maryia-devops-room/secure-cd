@@ -12,8 +12,8 @@ spec:
     name: in-cluster
     namespace: prod
   source:
-    path: .
-    repoURL: https://github.com/maryia-devops-room/secure-helm.git
+    path: ./prod
+    repoURL: https://github.com/maryia-devops-room/secure-manifests.git
     targetRevision: main
   syncPolicy:
     automated:
