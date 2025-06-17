@@ -4,6 +4,8 @@ metadata:
   name: getshorty-prod
   finalizers:
     - resources-finalizer.argocd.argoproj.io/foreground
+  annotations:
+    codefresh.io/product: getshorty
 spec:
   project: default
   destination:
