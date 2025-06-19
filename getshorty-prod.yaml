@@ -6,8 +6,9 @@ metadata:
     - resources-finalizer.argocd.argoproj.io/foreground
   annotations:
     codefresh.io/product: getshorty
+  namespace: cf-test
 spec:
-  project: default
+  project: restricted-test
   destination:
     name: in-cluster
     namespace: prod
