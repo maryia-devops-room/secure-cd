@@ -8,7 +8,7 @@ metadata:
     codefresh.io/product: getshorty
   namespace: cf-test
 spec:
-  project: restricted-test
+  project: default
   destination:
     name: in-cluster
     namespace: dev
